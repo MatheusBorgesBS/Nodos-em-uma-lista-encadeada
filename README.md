@@ -6,18 +6,6 @@ Este projeto implementa uma **estrutura de dados de lista encadeada** em Python,
 
 A classe `Nodo` representa os nós individuais da lista, armazenando valores e referências ao próximo elemento (nó) da sequência.
 
----
-
-## 🎯 Objetivo
-
-O objetivo deste projeto é:
-
-- Demonstrar o funcionamento de **listas encadeadas**.
-- Aplicar conceitos de programação orientada a objetos em Python.
-- Criar uma implementação prática de adição, remoção e busca de elementos em uma lista dinâmica.
-
----
-
 ## 🚧 Funcionalidades
 
 - **Adicionar Elementos**:  
@@ -38,13 +26,33 @@ O objetivo deste projeto é:
   - `__str__()` → Representação da lista encadeada como string.  
   - `__len__()` → Retorna o tamanho atual da lista.  
 
----
-
 ## 🛠 Estrutura do Projeto
 
-O projeto é composto pelos seguintes arquivos:
+- **`Lista`**: Classe responsável pelas operações gerais da lista.  
+- **`Nodo`**: Classe que representa os nós da lista, contendo o valor e o ponteiro para o próximo nó.
 
-```plaintext
-.
-├── lista_encadeada.py   # Arquivo principal contendo as classes Lista e Nodo
-└── README.md            # Documentação do projeto
+### Exemplo de Uso:
+
+```python
+# Importação e uso da classe
+lista = Lista()
+
+# Adicionando elementos
+lista.add(10)
+lista.append(20)
+lista.insert(15, 1)
+
+# Visualizando a lista
+print(lista)  # Output: [ 10 , 15 , 20 ]
+
+# Removendo elementos
+lista.rem()
+lista.pop()
+
+# Modificando valores
+lista[0] = 50
+print(lista[0])  # Output: 50
+
+# Buscando elementos
+pos = lista.busca(15)
+print(pos)  # Output: -1 (caso não encontrado)
