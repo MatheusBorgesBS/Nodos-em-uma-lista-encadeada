@@ -58,6 +58,6 @@ pos = lista.busca(15)
 print(pos)  # Output: -1 (caso não encontrado)```
 ```
 ## 👨‍💻 Autor
-Matheus Borges Borba dos Santos.
+Matheus Borges Borba dos Santos.  
 studante de Matemática Industrial - UFPR
 
