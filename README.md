@@ -55,4 +55,9 @@ print(lista[0])  # Output: 50
 
 # Buscando elementos
 pos = lista.busca(15)
-print(pos)  # Output: -1 (caso não encontrado)
+print(pos)  # Output: -1 (caso não encontrado)```
+```
+## 👨‍💻 Autor
+Matheus Borges Borba dos Santos.
+studante de Matemática Industrial - UFPR
+
